@@ -1,0 +1,87 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body {
+    background-image: url(img/tesla-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header{
+    padding: 35px;
+
+    
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.menu-item img{
+    width: 240px;
+    height: 55.2px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.header-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 96px;
+    line-height: 112px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.header-content a{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header-descr{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 140px;
+    font-size: 24px;
+    line-height: 28px;
+    width: 284px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.header-button{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 30px 62px;
+    color:#fff;
+    margin-bottom: 143px;
+}
+
+.slider-arrow, slider-circle{
+    display: block;
+}
+
+.slider-arrow{
+    margin-bottom: 83px;
+}
