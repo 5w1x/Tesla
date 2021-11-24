@@ -7,10 +7,7 @@
 }
 
 body {
-    background-image: url(img/tesla-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+    
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -20,15 +17,24 @@ a{
 }
 
 .wrapper{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
+    
+    
+    
 }
 
 .header{
-    padding: 35px;
+    padding: 36px 0px;
+    background-image: url(img/tesla-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
 
-    
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+
 }
 .menu-items{
     display: flex;
@@ -85,3 +91,47 @@ a{
 .slider-arrow{
     margin-bottom: 83px;
 }
+
+.main{
+    background-color: #000;
+}
+
+.indicators{
+    display: flex;
+    justify-content: space-between;
+    padding: 105px 116px 100px;
+}
+
+.indicators h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+
+p.number{
+    font-family: 'Roboto';
+    font-size: 96px;
+    line-height: 112px;
+    color: #fff;
+}
+
+.number-value{
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+}
+
+.red-text{
+    display: flex;
+    justify-content: center;
+    color:#B70021;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    line-height: 28px;
+}
+
